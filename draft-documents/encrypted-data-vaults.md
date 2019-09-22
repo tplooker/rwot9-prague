@@ -166,7 +166,7 @@ stores it across a public network.
 
 [Hyperledger Aries](https://github.com/hyperledger/aries-rfcs) is a project chartered
 to develop infrastructure components for agents. At present Aries features a wallet
-that can securely store abitrary data, however the data is encrypted to a single user
+that can securely store arbitrary data, however the data is encrypted to a single user
 that has full access to the wallet. 
 
 ## Core Use Cases
