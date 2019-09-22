@@ -29,7 +29,7 @@ diagram. This paper elaborates on the role itself as well as the interaction it
 has with the agent, also known as a wallet.
 
 It is possible to deploy all components on the same device. It is also possible
-to deploy the components on multiple devices, such as in backup scenarios  where
+to deploy the components on multiple devices, such as in backup scenarios where
 it is beneficial to have separate hardware redundancies. The key management
 service (KMS) is typically decoupled, so the storage provider never has access
 to unencrypted data. The end-user interacts with the agent/wallet via an edge
@@ -164,9 +164,10 @@ URIs for data from the content, and to link content together on the network; and
 uses DHTs to discover content on the network. IPFS does not encrypt data, and
 stores it across a public network.
 
-[Hyperledger Aries](https://github.com/hyperledger/aries-rfcs) is an
-infrastructure for agent interactions but does not provide a solution for data
-storage.
+[Hyperledger Aries](https://github.com/hyperledger/aries-rfcs) is a project chartered
+to develop infrastructure components for agents. At present Aries features a wallet
+that can securely store abitrary data, however the data is encrypted to a single user
+that has full access to the wallet. 
 
 ## Core Use Cases
 From the perspective of a person using this ecosystem, the following three use
